@@ -1730,16 +1730,16 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .service-box-title {
-  font-size: 16px;
+  font-size: 25px;
   margin: 0 0 10px;
 }
 
 .service-box-title a {
-  color: #333;
+  color: #1F8F92;
 }
 
 .service-box-title a:hover {
-  color: #1F8F92;
+  color: #333;
 }
 
 /* Service box bg */
