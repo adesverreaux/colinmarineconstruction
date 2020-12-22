@@ -694,7 +694,7 @@ ul.top-info li p.info-text {
 }
 
 .header-one .logo-area {
-  padding: 30px 0;
+  padding: 10px 0;
 }
 
 .navbar-fixed {
@@ -1241,6 +1241,8 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   color: #fff;
   background-position: 50% 50%;
   background-size: cover;
+  background-color: rgba(0,0,0,.4);
+  background-blend-mode: multiply;
 }
 
 @media (max-width: 991px) {
@@ -1733,7 +1735,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .service-box-title a {
-  color: #333;
+  color: #fff;
 }
 
 .service-box-title a:hover {
@@ -2614,6 +2616,8 @@ img.testimonial-thumb {
   color: #fff;
   background-position: 50% 50%;
   background-size: cover;
+  background-color: rgba(0,0,0,.6);
+  background-blend-mode: multiply;
 }
 
 .banner-title {
