@@ -1735,7 +1735,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .service-box-title a {
-  color: #fff;
+  color: #333;
 }
 
 .service-box-title a:hover {
@@ -1853,6 +1853,9 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 /* Service Image */
 .ts-service-image-wrapper {
   margin-bottom: 30px;
+  overflow:hidden;
+  width: auto;
+  height: 225px;
 }
 
 .ts-service-icon i {
@@ -1862,7 +1865,12 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .ts-service-info {
-  margin-left: 30px;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0;
 }
 
 .ts-service-info h3 {
@@ -1894,7 +1902,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .ts-service-classic .ts-service-box-info {
-  margin-left: 80px;
+  margin-left: 40px;
 }
 
 .ts-service-classic:hover .ts-service-icon i {
