@@ -16,7 +16,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #1F8F92;
+  color: #0077be;
   transition: 0.5s;
 }
 
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1F8F92;
+  background: #0077be;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 span {
   color: #fff;
   transition: 0.3s;
-  border-bottom: 2px solid #1F8F92;
+  border-bottom: 2px solid #0077be;
 }
 
 @media (max-width: 768px) {
@@ -172,8 +172,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  background: #1F8F92;
-  border: 2px solid #1F8F92;
+  background: #0077be;
+  border: 2px solid #0077be;
   color: #fff;
 }
 
@@ -189,8 +189,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-services:hover {
-  background: #1F8F92;
-  border: 2px solid #1F8F92;
+  background: #0077be;
+  border: 2px solid #0077be;
 }
 
 /*--------------------------------------------------------------
@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #1F8F92;
+  color: #0077be;
 }
 
 .navbar .dropdown ul {
@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #1F8F92;
+  color: #0077be;
 }
 
 .navbar .dropdown:hover > ul {
@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #1F8F92;
+  color: #0077be;
 }
 
 .navbar-mobile .getstarted {
@@ -437,7 +437,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #1F8F92;
+  color: #0077be;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -469,7 +469,7 @@ section {
 .section-title-divider {
   width: 50px;
   height: 3px;
-  background: #1F8F92;
+  background: #0077be;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -532,10 +532,10 @@ section {
 
 #services .service-icon {
   float: left;
-  background: #1F8F92;
+  background: #0077be;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #1F8F92;
+  border: 1px solid #0077be;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -554,7 +554,7 @@ section {
 }
 
 #services .service-item:hover .service-icon i {
-  color: #1F8F92;
+  color: #0077be;
 }
 
 #services .service-title {
@@ -612,8 +612,8 @@ section {
 }
 
 #subscribe .subscribe-btn:hover {
-  background: #1F8F92;
-  border: 2px solid #1F8F92;
+  background: #0077be;
+  border: 2px solid #0077be;
 }
 
 /* Portfolio Section
@@ -643,7 +643,7 @@ section {
 }
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  color: #1F8F92;
+  color: #0077be;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -694,7 +694,7 @@ section {
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #1F8F92;
+  color: #0077be;
 }
 
 #portfolio .portfolio-item .portfolio-info .details-link {
@@ -726,11 +726,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #1F8F92;
+  border: 1px solid #0077be;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1F8F92;
+  background-color: #0077be;
 }
 
 .portfolio-details .portfolio-info {
@@ -796,7 +796,7 @@ section {
 
 #testimonials .profile h4 {
   font-weight: 700;
-  color: #1F8F92;
+  color: #0077be;
   margin-bottom: 5px;
 }
 
@@ -871,7 +871,7 @@ section {
 }
 
 #team .member .social a:hover {
-  color: #1F8F92;
+  color: #0077be;
 }
 
 #team .member .social i {
@@ -892,7 +892,7 @@ section {
 
 #contact .info i {
   font-size: 32px;
-  color: #1F8F92;
+  color: #0077be;
   float: left;
   line-height: 0;
 }
@@ -950,11 +950,11 @@ section {
 }
 
 #contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
-  background-color: #1F8F92;
+  background-color: #0077be;
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: #1F8F92;
+  background: #0077be;
   border: 0;
   padding: 10px 24px;
   color: #fff;
