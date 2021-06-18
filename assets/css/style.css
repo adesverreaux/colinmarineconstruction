@@ -497,17 +497,8 @@ section {
 }
 
 #about .about-img img {
-  max-width: 100%;
-}
-
-@media (max-width: 768px) {
-  #about .about-img {
-    height: auto;
-  }
-  #about .about-img img {
-    margin-left: 0;
-    padding-bottom: 30px;
-  }
+  width: 100%;
+  height: auto;
 }
 
 #about .about-content {
@@ -635,8 +626,8 @@ section {
 }
 
 #portfolio .portfolio-item img {
-  height: 300px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
 }
 
 #portfolio .portfolio-item .portfolio-info h4 {
@@ -758,11 +749,11 @@ section {
 #team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  height: 180px;
 }
 
 #team .member .pic img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 #team .member h4 {
