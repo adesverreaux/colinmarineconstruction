@@ -669,6 +669,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 20px;
+  min-height: calc(100vh - 318px);
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -936,6 +937,58 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+}
+
+/* 404 Section
+--------------------------------*/
+#fourofour {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../img/services-bg.webp) fixed center center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+  min-height: calc(100vh - 207px)
+}
+
+#fourofour .fourofour-title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#fourofour .fourofour-title a {
+  color: #111;
+}
+
+#fourofour .fourofour-description {
+  margin-left: 80px;
+  line-height: 24px;
+  height: 100%;
+}
+
+/* Email Confirmation Section
+--------------------------------*/
+#email-confirmation {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../img/services-bg.webp) fixed center center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+  min-height: calc(100vh - 207px)
+}
+
+#email-confirmation .email-confirmation-title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#email-confirmation .email-confirmation-title a {
+  color: #111;
+}
+
+#email-confirmation .email-confirmation-description {
+  margin-left: 80px;
+  line-height: 24px;
+  height: 100%;
 }
 
 /*--------------------------------------------------------------
