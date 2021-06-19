@@ -31,11 +31,11 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -53,7 +53,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
-      <div class="wow fadeIn">
+      <div data-aos="zoom-in">
         <div class="hero-logo">
           <img class="" src="assets/img/logo.png" alt="logo">
         </div>
@@ -95,7 +95,7 @@
 
     <!-- ======= About Section ======= -->
     <section id="about">
-      <div class="container wow fadeInUp">
+      <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h3 class="section-title">About Us</h3>
@@ -103,7 +103,7 @@
           </div>
         </div>
       </div>
-      <div class="container about-container wow fadeInUp">
+      <div data-aos="fade-up" class="container about-container">
         <div class="row justify-content-center">
 
           <div class="col-lg-6 about-img">
@@ -133,7 +133,7 @@
 
     <!-- ======= Services Section ======= -->
     <section id="services">
-      <div class="container wow fadeInUp">
+      <div data-aos="fade-up" class="container">
         <div class="row">
           <div class="col-md-12">
             <h3 class="section-title">Our Services</h3>
@@ -184,7 +184,7 @@
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio">
-      <div class="container wow fadeInUp">
+      <div data-aos="fade-up" class="container">
         <div class="row">
           <div class="col-md-12">
             <h3 class="section-title">Portfolio</h3>
@@ -360,7 +360,7 @@
 
     <!-- ======= Team Section ======= -->
     <section id="team">
-      <div class="container wow fadeInUp">
+      <div data-aos="fade-up" class="container">
         <div class="row">
           <div class="col-md-12">
             <h3 class="section-title">Our Team</h3>
@@ -406,7 +406,7 @@
 
     <!-- ======= Contact Section ======= -->
     <section id="contact">
-      <div class="container wow fadeInUp">
+      <div data-aos="fade-up" class="container">
         <div class="row">
           <div class="col-md-12">
             <h3 class="section-title">Contact Us</h3>
@@ -503,11 +503,15 @@
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 <!-- Vendor JS Files -->
-<script src="assets/vendor/aos/aos.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="assets/vendor/typed.js/typed.min.js"></script>
 
 <!-- Template Main JS File -->
