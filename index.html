@@ -107,7 +107,7 @@
         <div class="row justify-content-center">
 
           <div class="col-lg-6 about-img">
-            <img src="assets/img/about-img.webp" alt="">
+            <img src="assets/img/about-img.webp" loading="lazy" alt="">
           </div>
 
           <div class="col-lg-6 about-content">
@@ -154,13 +154,13 @@
             <p class="service-description">Get the most out of your waterfront property with a new pier, or give your existing pier new life with new decking.</p>
           </div>
           <div class="col-lg-4 col-md-6 service-item">
-            <div class="service-icon"><a href="boat-lifts-details.html"><i class="bi bi-tools"></i></a></div>
+            <div class="service-icon"><a href="boat-lifts-details.html"><i class="bi bi-gear"></i></a></div>
             <h4 class="service-title"><a href="boat-lifts-details.html">Boat Lifts</a></h4>
-            <p class="service-description">From old rusty cables to snapped guideposts, Colin Marine is capable of repairing or replacing most boat lift components.</p>
+            <p class="service-description">We install 10K through 20K capacity boat lifts and elevator lifts for jet skis.</p>
           </div>
           <div class="col-lg-4 col-md-6 service-item">
-            <div class="service-icon"><a href="boat-lifts-maint-details.html"><i class="bi bi-tools"></i></a></div>
-            <h4 class="service-title"><a href="boat-lifts-maint-details.html">Boat Lift Maintenance</a></h4>
+            <div class="service-icon"><a href="boat-lifts-details.html"><i class="bi bi-tools"></i></a></div>
+            <h4 class="service-title"><a href="boat-lifts-details.html">Boat Lift Maintenance</a></h4>
             <p class="service-description">From old rusty cables to snapped guideposts, Colin Marine is capable of repairing or replacing most boat lift components.</p>
           </div>
           <div class="col-lg-4 col-md-6 service-item">
@@ -199,8 +199,7 @@
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-bh">Bulkheads</li>
               <li data-filter=".filter-pier">Piers & Re-decking</li>
-              <li data-filter=".filter-bl">Boat Lifts</li>
-              <li data-filter=".filter-bl-maint">Boat Lift Maintenance</li>
+              <li data-filter=".filter-bl">Boat Lifts & Maintenance</li>
               <li data-filter=".filter-rr">Rip Rap</li>
               <li data-filter=".filter-fd">Floating Docks</li>
               <li data-filter=".filter-bw">Beach Walk</li>
@@ -330,6 +329,30 @@
             </div>
           </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bh">
+            <img src="assets/img/portfolio/preview/bulkhead/bulkhead-3.jpg" loading="lazy" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Bulkhead</h4>
+              <a href="assets/img/portfolio/bulkhead/bulkhead-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Bulkhead"><i class="bi bi-zoom-in"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bw">
+            <img src="assets/img/portfolio/preview/beach-walk/beach-walk-1.jpg" loading="lazy" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Beach Walk</h4>
+              <a href="assets/img/portfolio/beach-walk/beach-walk-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Beach Walk"><i class="bi bi-zoom-in"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bw">
+            <img src="assets/img/portfolio/preview/beach-walk/beach-walk-2.jpg" loading="lazy" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Beach Walk</h4>
+              <a href="assets/img/portfolio/beach-walk/beach-walk-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Beach Walk"><i class="bi bi-zoom-in"></i></a>
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -418,7 +441,7 @@
             </div>
           </div>
 
-          <div class="col-lg-5 col-md-8">
+          <div class="col-lg-5 col-md-8 text-center">
             <div class="form">
               <form action="https://api.staticforms.xyz/submit" method="post" role="form">
                 <input type="hidden" name="accessKey" value="e7b8cd80-2507-4ea9-8058-2f795ff91a59">
@@ -433,7 +456,7 @@
                   <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
                 </div>
                 <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                  <textarea class="form-control" name="message" rows="5" style="resize:none" wrap="hard" maxlength="200" placeholder="Message" required></textarea>
                 </div>
                 <div class="form-group mt-3">
                   <div class="php-email-form"> <button type="submit">Send Message</button></div>

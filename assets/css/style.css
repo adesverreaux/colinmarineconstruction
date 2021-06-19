@@ -673,9 +673,8 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 900px;
-  height: auto;
-  max-height: 600px;
+  width: 800px;
+  height: 500px;
   margin-left: 0 auto;
   margin-right: 0 auto;
   object-fit:cover;
@@ -718,17 +717,18 @@ section {
 }
 
 .portfolio-details .portfolio-info ul li + li {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .portfolio-details .portfolio-description {
-  padding-top: 30px;
+  padding-top: 0px;
 }
 
 .portfolio-details .portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .portfolio-details .portfolio-description p {
@@ -853,10 +853,12 @@ section {
 #contact .php-email-form input, #contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
+  resize: none;
 }
 
 #contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
   background-color: #0077be;
+  resize: none;
 }
 
 #contact .php-email-form button[type="submit"] {
