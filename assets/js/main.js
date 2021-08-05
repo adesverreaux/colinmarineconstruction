@@ -159,6 +159,14 @@
   });
 
   /**
+   * Work around to refresh AOS after portfolio filters
+   */
+  let samt = 0;
+  window.addEventListener('scroll', function() {
+  samt <= 10 ? samt++ : AOS.refresh();
+  });
+
+  /**
    * Preloader
    */
   let preloader = select('#preloader');
