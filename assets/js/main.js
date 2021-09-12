@@ -246,4 +246,13 @@
     }
   });
 
+  /**
+   * Cleave phone input formatter
+   */
+  var cleave = new Cleave('.input-phone', {
+    numericOnly: true,
+    blocks: [0, 3, 3, 4],
+    delimiters: ["(", ") ", "-"]
+  });
+
 })()

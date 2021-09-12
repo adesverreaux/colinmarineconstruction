@@ -411,12 +411,13 @@
             <div class="info">
               <div>
                 <i class="bi bi-envelope"></i>
-                <p>joe@colinmarine.com</p>
+                <p><a href="mailto:joe@colinmarine.com">joe@colinmarine.com</a>
               </div>
 
               <div>
                 <i class="bi bi-phone"></i>
-                <p>(443) 624-8213</p>
+                <p><a href="tel:(443) 624-8213">(443) 624-8213</a>
+                </p>
               </div>
 
               <div>
@@ -442,7 +443,10 @@
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="form-group mt-3">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="tel" class="form-control input-phone" name="phone" id="phone" placeholder="Phone Number (Optional)">
                 </div>
                 <div class="form-group mt-3">
                   <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
@@ -509,6 +513,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.6.0/cleave.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
