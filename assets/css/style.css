@@ -1,9 +1,4 @@
-/**
-* Template Name: Imperial - v5.0.1
-* Template URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -707,6 +702,10 @@ section {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+.portfolio-details .portfolio-description h1 {
   text-align: center;
 }
 
